@@ -2,7 +2,7 @@
  * @Author: jiejie
  * @Github: https://github.com/jiejieTop
  * @Date: 2020-03-21 15:55:37
- * @LastEditTime: 2020-03-22 22:01:31
+ * @LastEditTime: 2020-03-22 22:20:59
  * @Description: the code belongs to jiejie, please keep the author information and source code according to the license.
  */
 
@@ -16,7 +16,7 @@ int main(void)
     using namespace std;
     std::cout << "this is my frist c plus plus demo!" << std::endl;
     std::cout << "hello world!" << std::endl;
-    std::cout << "please input your name："; 
+    std::cout << "please input your name: "; 
     std::cin >> your_name;
     std::cout << "hello, "<< your_name << ", my name is "<< my_name << ", age is " << age << std::endl;
     return 0;
