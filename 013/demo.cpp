@@ -2,7 +2,7 @@
  * @Author: jiejie
  * @Github: https://github.com/jiejieTop
  * @Date: 2020-03-21 15:55:37
- * @LastEditTime: 2020-04-02 01:45:58
+ * @LastEditTime: 2020-04-02 02:14:20
  * @Description: the code belongs to jiejie, please keep the author information and source code according to the license.
  */
 
@@ -83,10 +83,14 @@ class_b::class_b(void)
     this->init(10, 10);
 }
 
-class_b::class_b(int _length, int _width, int _high)
+// class_b::class_b(int _length, int _width, int _high)
+// {
+//     high = _high;
+//     this->init(_length, _width);        //cannot access private variables
+// };
+
+class_b::class_b(int _length, int _width, int _high) : class_a(_length, _width) , high(_high)
 {
-    high = _high;
-    this->init(_length, _width);        //cannot access private variables
 };
 
 class_b::~class_b()
